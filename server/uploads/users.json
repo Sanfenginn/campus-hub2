@@ -1,0 +1,756 @@
+[
+  {
+    "name": {
+      "firstName": "Robert",
+      "lastName": "Brown"
+    },
+    "dob": "2003-01-01T00:00:00Z",
+    "account": "robert",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "robert.brown@example.com",
+      "phone": "+61434567890"
+    },
+    "address": {
+      "houseNumber": "321",
+      "street": "Cedar St",
+      "suburb": "",
+      "city": "Perth",
+      "state": "WA",
+      "country": "Australia",
+      "postalCode": "6000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Emily",
+      "lastName": "Davis"
+    },
+    "dob": "2001-01-01T00:00:00Z",
+    "account": "emily",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "emily.davis@example.com",
+      "phone": "+61445678901"
+    },
+    "address": {
+      "houseNumber": "654",
+      "street": "Maple St",
+      "suburb": "",
+      "city": "Adelaide",
+      "state": "SA",
+      "country": "Australia",
+      "postalCode": "5000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Michael",
+      "lastName": "Wilson"
+    },
+    "dob": "2000-01-01T00:00:00Z",
+    "account": "michael",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "michael.wilson@example.com",
+      "phone": "+61456789012"
+    },
+    "address": {
+      "houseNumber": "987",
+      "street": "Birch St",
+      "suburb": "",
+      "city": "Canberra",
+      "state": "ACT",
+      "country": "Australia",
+      "postalCode": "2600"
+    }
+  },
+  {
+    "name": {
+      "firstName": "David",
+      "lastName": "Taylor"
+    },
+    "dob": "2004-01-01T00:00:00Z",
+    "account": "david",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "david.taylor@example.com",
+      "phone": "+61467890123"
+    },
+    "address": {
+      "houseNumber": "123",
+      "street": "Oak St",
+      "suburb": "",
+      "city": "Hobart",
+      "state": "TAS",
+      "country": "Australia",
+      "postalCode": "7000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Sophia",
+      "lastName": "Martinez"
+    },
+    "dob": "2003-01-01T00:00:00Z",
+    "account": "sophia",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "sophia.martinez@example.com",
+      "phone": "+61478901234"
+    },
+    "address": {
+      "houseNumber": "456",
+      "street": "Pine St",
+      "suburb": "",
+      "city": "Darwin",
+      "state": "NT",
+      "country": "Australia",
+      "postalCode": "0800"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Liam",
+      "lastName": "Anderson"
+    },
+    "dob": "2002-01-01T00:00:00Z",
+    "account": "liam",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "liam.anderson@example.com",
+      "phone": "+61489012345"
+    },
+    "address": {
+      "houseNumber": "789",
+      "street": "Cedar St",
+      "suburb": "",
+      "city": "Sydney",
+      "state": "NSW",
+      "country": "Australia",
+      "postalCode": "2000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Olivia",
+      "lastName": "Thomas"
+    },
+    "dob": "2001-01-01T00:00:00Z",
+    "account": "olivia",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "olivia.thomas@example.com",
+      "phone": "+61490123456"
+    },
+    "address": {
+      "houseNumber": "321",
+      "street": "Maple St",
+      "suburb": "",
+      "city": "Melbourne",
+      "state": "VIC",
+      "country": "Australia",
+      "postalCode": "3000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Noah",
+      "lastName": "Harris"
+    },
+    "dob": "2005-01-01T00:00:00Z",
+    "account": "noah",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "noah.harris@example.com",
+      "phone": "+61401234567"
+    },
+    "address": {
+      "houseNumber": "654",
+      "street": "Birch St",
+      "suburb": "",
+      "city": "Brisbane",
+      "state": "QLD",
+      "country": "Australia",
+      "postalCode": "4000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Emma",
+      "lastName": "Clark"
+    },
+    "dob": "2000-01-01T00:00:00Z",
+    "account": "emma",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "emma.clark@example.com",
+      "phone": "+61412345678"
+    },
+    "address": {
+      "houseNumber": "987",
+      "street": "Elm St",
+      "suburb": "",
+      "city": "Perth",
+      "state": "WA",
+      "country": "Australia",
+      "postalCode": "6000"
+    }
+  },
+  {
+    "name": {
+      "firstName": "James",
+      "lastName": "Lewis"
+    },
+    "dob": "2003-01-01T00:00:00Z",
+    "account": "james",
+    "password": "12345",
+    "role": {
+      "userType": "student",
+      "roleInfo": "66747dabeb6c29ccfaf807bc"
+    },
+    "contact": {
+      "email": "james.lewis@example.com",
+      "phone": "+61423456789"
+    },
+    "address": {
+      "houseNumber": "123",
+      "street": "Oak St",
+      "suburb": "",
+      "city": "Adelaide",
+      "state": "SA",
+      "country": "Australia",
+      "postalCode": "5000"
+    }
+  },
+    {
+      "name": {
+        "firstName": "Isabella",
+        "lastName": "Walker"
+      },
+      "dob": "2004-01-01T00:00:00Z",
+      "account": "isabella",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "isabella.walker@example.com",
+        "phone": "+61434567890"
+      },
+      "address": {
+        "houseNumber": "456",
+        "street": "Pine St",
+        "suburb": "",
+        "city": "Canberra",
+        "state": "ACT",
+        "country": "Australia",
+        "postalCode": "2600"
+      }
+    },
+    {
+      "name": {
+        "firstName": "William",
+        "lastName": "Hall"
+      },
+      "dob": "2002-01-01T00:00:00Z",
+      "account": "william",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "william.hall@example.com",
+        "phone": "+61445678901"
+      },
+      "address": {
+        "houseNumber": "789",
+        "street": "Cedar St",
+        "suburb": "",
+        "city": "Darwin",
+        "state": "NT",
+        "country": "Australia",
+        "postalCode": "0800"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Mia",
+        "lastName": "Allen"
+      },
+      "dob": "2001-01-01T00:00:00Z",
+      "account": "mia",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "mia.allen@example.com",
+        "phone": "+61456789012"
+      },
+      "address": {
+        "houseNumber": "321",
+        "street": "Maple St",
+        "suburb": "",
+        "city": "Hobart",
+        "state": "TAS",
+        "country": "Australia",
+        "postalCode": "7000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Lucas",
+        "lastName": "King"
+      },
+      "dob": "2004-01-01T00:00:00Z",
+      "account": "lucas",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "lucas.king@example.com",
+        "phone": "+61467890123"
+      },
+      "address": {
+        "houseNumber": "123",
+        "street": "Oak St",
+        "suburb": "",
+        "city": "Hobart",
+        "state": "TAS",
+        "country": "Australia",
+        "postalCode": "7000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Charlotte",
+        "lastName": "Scott"
+      },
+      "dob": "2003-01-01T00:00:00Z",
+      "account": "charlotte",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "charlotte.scott@example.com",
+        "phone": "+61478901234"
+      },
+      "address": {
+        "houseNumber": "456",
+        "street": "Pine St",
+        "suburb": "",
+        "city": "Darwin",
+        "state": "NT",
+        "country": "Australia",
+        "postalCode": "0800"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Henry",
+        "lastName": "Green"
+      },
+      "dob": "2002-01-01T00:00:00Z",
+      "account": "henry",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "henry.green@example.com",
+        "phone": "+61489012345"
+      },
+      "address": {
+        "houseNumber": "789",
+        "street": "Cedar St",
+        "suburb": "",
+        "city": "Sydney",
+        "state": "NSW",
+        "country": "Australia",
+        "postalCode": "2000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Grace",
+        "lastName": "Baker"
+      },
+      "dob": "2001-01-01T00:00:00Z",
+      "account": "grace",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "grace.baker@example.com",
+        "phone": "+61490123456"
+      },
+      "address": {
+        "houseNumber": "321",
+        "street": "Maple St",
+        "suburb": "",
+        "city": "Melbourne",
+        "state": "VIC",
+        "country": "Australia",
+        "postalCode": "3000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Ethan",
+        "lastName": "Adams"
+      },
+      "dob": "2005-01-01T00:00:00Z",
+      "account": "ethan",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "ethan.adams@example.com",
+        "phone": "+61401234567"
+      },
+      "address": {
+        "houseNumber": "654",
+        "street": "Birch St",
+        "suburb": "",
+        "city": "Brisbane",
+        "state": "QLD",
+        "country": "Australia",
+        "postalCode": "4000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Ava",
+        "lastName": "Nelson"
+      },
+      "dob": "2000-01-01T00:00:00Z",
+      "account": "ava",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "ava.nelson@example.com",
+        "phone": "+61412345678"
+      },
+      "address": {
+        "houseNumber": "987",
+        "street": "Elm St",
+        "suburb": "",
+        "city": "Perth",
+        "state": "WA",
+        "country": "Australia",
+        "postalCode": "6000"
+      }
+    },
+    {
+      "name": {
+        "firstName": "Daniel",
+        "lastName": "Hill"
+      },
+      "dob": "2003-01-01T00:00:00Z",
+      "account": "daniel",
+      "password": "12345",
+      "role": {
+        "userType": "student",
+        "roleInfo": "66747dabeb6c29ccfaf807bc"
+      },
+      "contact": {
+        "email": "daniel.hill@example.com",
+        "phone": "+61423456789"
+      },
+      "address": {
+        "houseNumber": "123",
+        "street": "Oak St",
+        "suburb": "",
+        "city": "Adelaide",
+        "state": "SA",
+        "country": "Australia",
+        "postalCode": "5000"
+      }
+    },
+      {
+        "name": {
+          "firstName": "Ella",
+          "lastName": "Carter"
+        },
+        "dob": "2004-01-01T00:00:00Z",
+        "account": "ella",
+        "password": "12345",
+        "role": {
+          "userType": "student",
+          "roleInfo": "66747dabeb6c29ccfaf807bc"
+        },
+        "contact": {
+          "email": "ella.carter@example.com",
+          "phone": "+61434567890"
+        },
+        "address": {
+          "houseNumber": "456",
+          "street": "Pine St",
+          "suburb": "",
+          "city": "Canberra",
+          "state": "ACT",
+          "country": "Australia",
+          "postalCode": "2600"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Samuel",
+          "lastName": "Mitchell"
+        },
+        "dob": "2002-01-01T00:00:00Z",
+        "account": "samuel",
+        "password": "12345",
+        "role": {
+          "userType": "student",
+          "roleInfo": "66747dabeb6c29ccfaf807bc"
+        },
+        "contact": {
+          "email": "samuel.mitchell@example.com",
+          "phone": "+61445678901"
+        },
+        "address": {
+          "houseNumber": "789",
+          "street": "Cedar St",
+          "suburb": "",
+          "city": "Darwin",
+          "state": "NT",
+          "country": "Australia",
+          "postalCode": "0800"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Olivia",
+          "lastName": "Smith"
+        },
+        "dob": "1989-01-01T00:00:00Z",
+        "account": "olivia",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "olivia.smith@example.com",
+          "phone": "+61412345678"
+        },
+        "address": {
+          "houseNumber": "123",
+          "street": "Main St",
+          "suburb": "",
+          "city": "Sydney",
+          "state": "NSW",
+          "country": "Australia",
+          "postalCode": "2000"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Liam",
+          "lastName": "Brown"
+        },
+        "dob": "1982-01-01T00:00:00Z",
+        "account": "liam",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "liam.brown@example.com",
+          "phone": "+61487654321"
+        },
+        "address": {
+          "houseNumber": "456",
+          "street": "Elm St",
+          "suburb": "",
+          "city": "Melbourne",
+          "state": "VIC",
+          "country": "Australia",
+          "postalCode": "3000"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Emma",
+          "lastName": "Johnson"
+        },
+        "dob": "1986-01-01T00:00:00Z",
+        "account": "emma",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "emma.johnson@example.com",
+          "phone": "+61423456789"
+        },
+        "address": {
+          "houseNumber": "789",
+          "street": "Pine St",
+          "suburb": "",
+          "city": "Brisbane",
+          "state": "QLD",
+          "country": "Australia",
+          "postalCode": "4000"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Noah",
+          "lastName": "Davis"
+        },
+        "dob": "1984-01-01T00:00:00Z",
+        "account": "noah",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "noah.davis@example.com",
+          "phone": "+61434567890"
+        },
+        "address": {
+          "houseNumber": "321",
+          "street": "Cedar St",
+          "suburb": "",
+          "city": "Perth",
+          "state": "WA",
+          "country": "Australia",
+          "postalCode": "6000"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Ava",
+          "lastName": "Garcia"
+        },
+        "dob": "1987-01-01T00:00:00Z",
+        "account": "ava",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "ava.garcia@example.com",
+          "phone": "+61445678901"
+        },
+        "address": {
+          "houseNumber": "654",
+          "street": "Maple St",
+          "suburb": "",
+          "city": "Adelaide",
+          "state": "SA",
+          "country": "Australia",
+          "postalCode": "5000"
+        }
+      },
+      {
+        "name": {
+          "firstName": "James",
+          "lastName": "Martinez"
+        },
+        "dob": "1978-01-01T00:00:00Z",
+        "account": "james",
+        "password": "12345",
+        "role": {
+          "userType": "teacher",
+          "roleInfo": "66747dabeb6c29ccfaf807bb"
+        },
+        "contact": {
+          "email": "james.martinez@example.com",
+          "phone": "+61456789012"
+        },
+        "address": {
+          "houseNumber": "987",
+          "street": "Birch St",
+          "suburb": "",
+          "city": "Canberra",
+          "state": "ACT",
+          "country": "Australia",
+          "postalCode": "2600"
+        }
+      },
+      {
+        "name": {
+          "firstName": "Admin",
+          "lastName": "Admin"
+        },
+        "dob": "1979-01-01T00:00:00Z",
+        "account": "admin",
+        "password": "12345",
+        "role": {
+          "userType": "admin",
+          "roleInfo": "66747dabeb6c29ccfaf807ba"
+        },
+        "contact": {
+          "email": "admin.admin@example.com",
+          "phone": "+61456789012"
+        },
+        "address": {
+          "houseNumber": "123",
+          "street": "Admin Rd",
+          "suburb": "",
+          "city": "Sydney",
+          "state": "NSW",
+          "country": "Australia",
+          "postalCode": "2000"
+        }
+      }
+    ]

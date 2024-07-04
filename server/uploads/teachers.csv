@@ -1,0 +1,4 @@
+name.firstName,name.lastName,dob,account,password,role.userType,role.roleInfo,contact.email,contact.phone,address.houseNumber,address.street,address.suburb,address.city,address.state,address.country,address.postalCode
+Emily,Clark,1980-03-15,emily,12345,teacher,66747dabeb6c29ccfaf807bb,emily.clark@example.com,+61412345678,123,Example Street,Example Suburb,Sydney,NSW,Australia,2000
+James,Brown,1975-07-24,james,12345,teacher,66747dabeb6c29ccfaf807bb,james.brown@example.com,+61487654321,456,Sample Avenue,Sample Suburb,Melbourne,VIC,Australia,3000
+Sarah,Wilson,1982-11-30,sarah,12345,teacher,66747dabeb6c29ccfaf807bb,sarah.wilson@example.com,+61423456789,789,Demo Road,Demo Suburb,Brisbane,QLD,Australia,4000
