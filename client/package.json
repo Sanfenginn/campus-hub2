@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.8",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -22,10 +23,11 @@
     "@mui/x-data-grid": "^7.7.1",
     "@mui/x-data-grid-pro": "^7.7.1",
     "@react-spring/web": "^9.7.3",
-    "@reduxjs/toolkit": "^2.2.5",
+    "@reduxjs/toolkit": "^2.2.6",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "dropzone": "^6.0.0-beta.2",
+    "graphql": "^16.9.0",
     "i18next": "^23.11.5",
     "i18next-browser-languagedetector": "^8.0.0",
     "js-cookie": "^3.0.5",
@@ -41,7 +43,9 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^3.1.0",
-    "sass": "^1.77.6"
+    "sass": "^1.77.6",
+    "styled-jsx": "^5.1.6",
+    "subscriptions-transport-ws": "^0.11.0"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.6",
