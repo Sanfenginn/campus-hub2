@@ -1,9 +1,11 @@
-const DashboardLayout: React.FC = () => {
-  return (
-    <div>
-      <h1>Dashboard Layout</h1>
-    </div>
-  );
+import dynamic from "next/dynamic";
+
+const DashboardPage = dynamic(() => import("@/app/admin/dashboard/page"), {
+  loading: () => <p>Loading...</p>,
+});
+
+const AdminMainPage: React.FC = () => {
+  return <DashboardPage />;
 };
 
-export default DashboardLayout;
+export default AdminMainPage;

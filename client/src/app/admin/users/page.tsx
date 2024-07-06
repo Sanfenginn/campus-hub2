@@ -1,9 +1,9 @@
+import dynamic from "next/dynamic";
+
+const UsersSearchPage = dynamic(() => import("./search/page"));
+
 const UsersPage: React.FC = () => {
-  return (
-    <div>
-      <h1>Users Page</h1>
-    </div>
-  );
+  return <UsersSearchPage />;
 };
 
 export default UsersPage;

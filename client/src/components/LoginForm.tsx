@@ -6,7 +6,11 @@ import CustomTextField from "@/components/common/TextField";
 import { gql, useMutation } from "@apollo/client";
 import { useDispatch } from "react-redux";
 import { setLoginInfo } from "@/redux/loginInfo";
-import { initializeApollo } from "@/lib/ apolloClient";
+import { initializeApollo } from "@/lib/apolloClient";
+
+import config from "@/config/config.json";
+
+type UserType = "admin" | "student" | "teacher";
 
 const LOGIN = gql`
   mutation Login($account: String!, $password: String!) {
@@ -30,9 +34,6 @@ const LoginForm: React.FC = () => {
     const account = formData.get("account") as string;
     const password = formData.get("password") as string;
 
-    console.log("account: ", account);
-    console.log("password", password);
-
     try {
       const response = await login({
         variables: {
@@ -41,23 +42,28 @@ const LoginForm: React.FC = () => {
         },
       });
 
-      console.log("response: ", response);
-      const userType = response.data.login.userType;
-      dispatch(
-        setLoginInfo({
-          account: response.data.login.account,
-          token: response.data.login.token,
-          userType: response.data.login.userType,
-        })
-      );
+      const userType: UserType = response.data.login.userType;
+
+      const userConfig = config[userType] || {};
+      const settings = config.settings || {};
+
+      const loginData = {
+        account: response.data.login.account,
+        token: response.data.login.token,
+        userType: response.data.login.userType,
+        userConfig: userConfig,
+        settings: settings,
+      };
+
+      localStorage.setItem("loginInfo", JSON.stringify(loginData));
 
       // 在登录成功后跳转到系统主界面
       if (userType === "admin") {
         router.push("/admin");
       } else if (userType === "teacher") {
-        router.push("/teachers/dashboard");
+        router.push("/teachers");
       } else if (userType === "student") {
-        router.push("/students/dashboard");
+        router.push("/students");
       }
     } catch (err) {
       console.error(err);

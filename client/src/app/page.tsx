@@ -1,10 +1,10 @@
-import router from "next/router";
+import dynamic from "next/dynamic";
+
+const LoginPage = dynamic(() => import("@/app/login/page"), {
+  loading: () => <p>Loading...</p>,
+});
 
 const HomePage: React.FC = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  );
+  return <LoginPage />;
 };
 export default HomePage;

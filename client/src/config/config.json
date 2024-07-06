@@ -1,0 +1,62 @@
+{
+  "admin": {
+    "navbar": [
+      {
+        "name": "Dashboard",
+        "path": "/admin/dashboard"
+      },
+      {
+        "name": "Users",
+        "path": "/admin/users"
+      },
+      {
+        "name": "Classes",
+        "path": "/admin/classes"
+      },
+      {
+        "name": "Courses",
+        "path": "/admin/courses"
+      }
+    ],
+    "sidebar": {
+      "users": [
+        { "name": "Users Search", "path": "/admin/users/search" },
+        { "name": "Bulk Upload", "path": "/admin/users/bulkupload" },
+        { "name": "Permissions", "path": "/admin/users/permissions" }
+      ],
+      "classes": [
+        { "name": "Classes Search", "path": "/admin/classes/search" },
+        { "name": "Bulk Upload", "path": "/admin/classes/bulkupload" }
+      ],
+      "courses": [
+        { "name": "Courses Search", "path": "/admin/courses/search" },
+        { "name": "Bulk Upload", "path": "/admin/courses/bulkupload" }
+      ]
+    }
+  },
+  "student": {
+    "navbar": [
+      {
+        "name": "Dashboard",
+        "path": "/student/dashboard"
+      },
+      {
+        "name": "My Courses",
+        "path": "/student/mycourses"
+      }
+    ]
+  },
+  "teacher": {
+    "navbar": [
+      {
+        "name": "Dashboard",
+        "path": "/teacher/dashboard"
+      },
+      {
+        "name": "My Courses",
+        "path": "/teacher/mycourses"
+      }
+    ]
+  },
+  "settings": ["Profile", "Change Password", "Logout"]
+}
